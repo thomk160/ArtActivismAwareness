@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Activism and Awareness</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+  <!-- Sidebar for Title and Explanation -->
+  <div id="sidebar">
+    <h1>Art Activism and Awareness</h1>
+    <p>This interactive map highlights areas experiencing conflict around the world. Click on each marker to learn more about ongoing challenges, artistic responses, and activism in these regions. Our aim is to spread awareness and inspire support through education and creativity.</p>
+  </div>
+
+  <div id="map"></div>
+  
+  <!-- Information Panel -->
+  <div id="info-panel" class="hidden">
+    <button id="close-panel">&times;</button>
+    <h2 id="location-title">Location Title</h2>
+    <div id="info-content">
+      <div id="awareness-section">
+        <h3>Awareness</h3>
+        <p id="awareness-text">Description here.</p>
+      </div>
+      <div id="art-section">
+        <h3>Art</h3>
+        <p id="art-text">Description here.</p>
+      </div>
+      <div id="activism-section">
+        <h3>Activism</h3>
+        <p id="activism-text">Description here.</p>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
